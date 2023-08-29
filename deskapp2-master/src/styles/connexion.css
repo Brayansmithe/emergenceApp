@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contenu input {
+    border-radius: 10px;
+}
+
+.contenu {
+    background: whitesmoke;
+    padding: 30px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+    margin: 15px 0px 0px 370px;
+    width: 400px;
+    height: 430px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    color: whitesmoke;
+    background-color: blue;
+    font-weight: bold;
+    height: 50px;
+}
+
+.std {
+    width: 100%;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: blue;
+    font-weight: bold;
+    height: 50px;
+}
+
+input[type="password"] {
+    width: 100%;
+    height: 50px;
+}
+
+input[type="checkbox"] {
+    margin-left: -2px;
+}
+
+.contener {
+    width: 800px;
+    height: 550px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+span {
+    margin-left: 105px;
+}
+
+p {
+    font-weight: bold;
+    color: blue;
+}
+
+.title {
+    background-color: rgb(245, 243, 243);
+    box-shadow: 2px 2px 2px rgba(201, 201, 201, 0.5);
+}
